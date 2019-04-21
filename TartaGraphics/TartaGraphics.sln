@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CLTartaGraphics", "CLTartaGraphics\CLTartaGraphics.csproj", "{BD9C3A4E-C363-4CD8-9416-740F14EDF1BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFTartaGraphics", "WFTartaGraphics\WFTartaGraphics.csproj", "{36600C10-B24E-4ABA-B811-BB9E936C6A31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD9C3A4E-C363-4CD8-9416-740F14EDF1BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD9C3A4E-C363-4CD8-9416-740F14EDF1BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD9C3A4E-C363-4CD8-9416-740F14EDF1BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD9C3A4E-C363-4CD8-9416-740F14EDF1BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36600C10-B24E-4ABA-B811-BB9E936C6A31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36600C10-B24E-4ABA-B811-BB9E936C6A31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36600C10-B24E-4ABA-B811-BB9E936C6A31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36600C10-B24E-4ABA-B811-BB9E936C6A31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {85D952D0-D91E-4ACB-B63F-BC1C41BEB566}
+	EndGlobalSection
+EndGlobal
