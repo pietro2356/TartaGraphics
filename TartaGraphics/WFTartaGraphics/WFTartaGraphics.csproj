@@ -84,6 +84,10 @@
       <Project>{bd9c3a4e-c363-4cd8-9416-740f14edf1bc}</Project>
       <Name>CLTartaGraphics</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CLTurtle\CLTurtle.csproj">
+      <Project>{1fd04631-29f9-4b5b-b3e6-cdeda6446e61}</Project>
+      <Name>CLTurtle</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

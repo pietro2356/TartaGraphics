@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{BD9C3A4E-C363-4CD8-9416-740F14EDF1BC}</ProjectGuid>
+    <ProjectGuid>{1FD04631-29F9-4B5B-B3E6-CDEDA6446E61}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CLTartaGraphics</RootNamespace>
-    <AssemblyName>CLTartaGraphics</AssemblyName>
+    <RootNamespace>CLTurtle</RootNamespace>
+    <AssemblyName>CLTurtle</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -46,14 +46,14 @@
     <Compile Include="Alberi.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Fractal.cs">
+    <Compile Include="Frattale.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Gradiente.cs" />
-    <Compile Include="Lavagna.cs">
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Turtle.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
